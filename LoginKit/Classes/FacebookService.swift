@@ -43,7 +43,7 @@ public class FacebookService {
 
     let loginManager: FBSDKLoginManager = {
         let manager = FBSDKLoginManager()
-        manager.loginBehavior = .systemAccount
+        manager.loginBehavior = .web
         return manager
     }()
 
